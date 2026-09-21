@@ -2,12 +2,14 @@
   "name": "exercicio-cypress",
   "version": "1.0.0",
   "private": true,
-  "description": "M34 - testes Cypress da agenda de contatos EBAC",
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
   "devDependencies": {
     "cypress": "^13.17.0"
+  },
+  "allowScripts": {
+    "cypress@13.17.0": true
   }
 }
